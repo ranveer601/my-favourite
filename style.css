@@ -1,0 +1,52 @@
+body {
+    padding-top: 800px;
+    margin: 0;
+    }
+.profile{
+    width:200px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border: 5px solid blue;
+    padding: 5px
+}
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: black;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background-image: linear-gradient(blue,white,red);
+    display: table;
+    width:100;
+    height:100;
+    z-index: 9;
+    font-weight: bold;
+    font-size: 45px;
+}
+.inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menue {
+    list-style: none;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+    z-index: 10;
+    position: absolute;
+}
+
+.links {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
